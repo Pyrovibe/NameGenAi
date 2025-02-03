@@ -50,7 +50,7 @@ The bot follows a straightforward workflow:
 
 ## Security Features and Considerations
 
-*   **Temporary Key Generation:** The bot **never** handles, stores, or transmits private keys. It delegates all key generation to the official Solana CLI (`solana-keygen`). The keypair is generated within the `solana-keygen` process, existing only during the generation process. **The generated key is not automatically saved to a file on the user's machine.**
+*   **Temporary Key Generation:** The bot **never** handles, stores, or transmits private keys. It delegates all key generation to the official Solana CLI (`solana-keygen`). The keypair is generated within the `solana-keygen` process, existing only during the generation process.
 *   **Official Solana CLI:** The bot relies on the official Solana CLI tools, ensuring that key generation follows established security practices and is performed by a trusted, audited tool.
 *   **No Private Key Storage:** The code does not include any functionality to access, store, or manipulate private keys in any way. The bot's primary role is to construct and execute `solana-keygen` commands based on user input and display the key once to the user.
 *   **User Responsibility:** Users are ultimately responsible for:
