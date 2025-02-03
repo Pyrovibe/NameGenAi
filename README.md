@@ -15,7 +15,7 @@ NameGenAI's core functionality revolves around generating custom Solana addresse
 *   **Real-time Progress Updates:** Users receive updates during the address generation process, so they know what's happening.
 *   **Comprehensive Help and Support:** A help menu and an AI assistant are available to guide users.
 
-## Why This Template is Being Released
+## NameGenAi's Goal
 
 The primary goal of releasing this template is to empower other developers and provide transparency into NameGenAI's inner workings. By open-sourcing the code, we aim to:
 
@@ -50,7 +50,7 @@ The bot follows a straightforward workflow:
 
 ## Security Features and Considerations
 
-*   **Local Key Generation:**  **Crucially, the bot never handles, stores, or transmits private keys.** It delegates all key generation to the official Solana CLI (`solana-keygen`), which performs these operations locally on the user's machine (or your server, if you are hosting the bot).
+*   **Local Key Generation:**  **Crucially, the bot never handles, stores, or transmits private keys.** It delegates all key generation to the official Solana CLI (`solana-keygen`), which performs these operations locally on the user's machine.
 *   **Official Solana CLI:** The bot relies on the official Solana CLI tools, ensuring that key generation follows established security practices and is performed by a trusted, audited tool.
 *   **No Private Key Storage:** The code does not include any functionality to access, store, or manipulate private keys in any way. The bot's primary role is to construct and execute `solana-keygen` commands based on user input.
 *   **User Responsibility:** Users are ultimately responsible for:
