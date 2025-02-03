@@ -1,0 +1,11 @@
+# Create a virtual environment (name it 'venv' or anything you like)
+python3 -m venv venv
+
+# Activate the virtual environment (Linux/macOS)
+source venv/bin/activate
+
+# Activate the virtual environment (Windows)
+venv\Scripts\activate
+
+# Install the requirements
+pip install -r requirements.txt
