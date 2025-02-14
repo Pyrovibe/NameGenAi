@@ -1,8 +1,6 @@
 ![NameGenAI Banner](https://pbs.twimg.com/profile_banners/1879319481346105344/1736913785/1500x500)
 
-# CA: 7JTSCMJR1FumTZxXeV1U142epQ8WejdCAYVz2aGspump
-
-# ⚡ NameGenAI: Solana vanity address generator. 
+Solana vanity address generator. 
 
 NameGenAI is a Telegram bot designed to help users create unique and personalized Solana wallet addresses. This repository provides a customizable template of the NameGenAI codebase, allowing developers to build their own Solana wallet generation bots. The code is open-source, so you can see exactly how it works and adapt it to your own needs.
 
